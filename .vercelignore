@@ -1,0 +1,18 @@
+# Ignore development and test-specific files
+README.md
+.github
+.next
+node_modules
+.vscode
+.vercel
+.git
+
+# Ignore test and unused files
+src/test
+src/scripts
+prisma/dev.db
+*.csv
+
+# Ignore temp files
+**/.DS_Store
+**/desktop.ini 

@@ -4,12 +4,14 @@ import { prisma } from '@/lib/prisma'
 // GET /api/admin/products/[id]
 export async function GET(
   request: NextRequest,
-  context: { params: { id: string } }
+  { params }: { params: { id: string } }
 ) {
+  const id = params.id
+  
   try {
     const product = await prisma.product.findUnique({
       where: {
-        id: context.params.id
+        id
       }
     })
 
@@ -33,13 +35,15 @@ export async function GET(
 // PUT /api/admin/products/[id]
 export async function PUT(
   request: NextRequest,
-  context: { params: { id: string } }
+  { params }: { params: { id: string } }
 ) {
+  const id = params.id
+  
   try {
     const body = await request.json()
     const product = await prisma.product.update({
       where: {
-        id: context.params.id
+        id
       },
       data: body
     })
@@ -57,12 +61,14 @@ export async function PUT(
 // DELETE /api/admin/products/[id]
 export async function DELETE(
   request: NextRequest,
-  context: { params: { id: string } }
+  { params }: { params: { id: string } }
 ) {
+  const id = params.id
+  
   try {
     await prisma.product.delete({
       where: {
-        id: context.params.id
+        id
       }
     })
 
