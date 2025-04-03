@@ -5,7 +5,6 @@ import { Product } from '@/types/product'
 import ProductSection from '@/components/ProductSection'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
-import { use } from 'react'
 import { loadProducts, subscribeToProductUpdates } from '@/utils/productStorage'
 import Link from 'next/link'
 import Image from 'next/image'
@@ -13,11 +12,10 @@ import { useCartStore } from '@/store/cartStore'
 import { toast } from 'react-hot-toast'
 import ProductCard from '@/components/ProductCard'
 
-export default function CategoryPage({ params }: { params: Promise<{ slug: string }> }) {
-  const resolvedParams = use(params)
+export default function CategoryPage({ params }: { params: { slug: string } }) {
   const [products, setProducts] = useState<Product[]>([])
   const [isLoading, setIsLoading] = useState(true)
-  const category = resolvedParams.slug.replace(/-/g, ' ')
+  const category = params.slug.replace(/-/g, ' ')
   const { addItem } = useCartStore()
 
   useEffect(() => {
