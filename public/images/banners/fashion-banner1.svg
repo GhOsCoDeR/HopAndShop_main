@@ -1,0 +1,14 @@
+<svg width="1200" height="400" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="400" fill="#ec4899" />
+  <text x="250" y="150" fill="white" font-family="Arial" font-size="64" font-weight="bold">
+    SUMMER FASHION
+  </text>
+  <text x="250" y="220" fill="white" font-family="Arial" font-size="32">
+    New Collection Arrivals
+  </text>
+  <text x="250" y="280" fill="white" font-family="Arial" font-size="28">
+    Buy 2 Get 1 Free on All Accessories
+  </text>
+  <path d="M900,100 L830,250 L970,250 Z" fill="white" opacity="0.6"/>
+  <rect x="830" y="250" width="140" height="70" rx="5" fill="white" opacity="0.6"/>
+</svg> 

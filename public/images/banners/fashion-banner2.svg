@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="250" viewBox="0 0 800 250">
+  <rect width="800" height="250" fill="#CC6600" />
+  <rect x="0" y="220" width="800" height="30" fill="#AA5500" />
+  <text x="400" y="120" font-family="Arial, sans-serif" font-size="36" font-weight="bold" text-anchor="middle" fill="#FFFFFF">
+    New Season Fashion
+  </text>
+  <text x="400" y="170" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" fill="#FFFFFF">
+    Just Landed | Explore the Latest Trends
+  </text>
+  <text x="400" y="240" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#FFFFFF">
+    Hop &amp; Shop
+  </text>
+</svg> 

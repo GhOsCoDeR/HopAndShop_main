@@ -1,0 +1,8 @@
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="400" fill="#d946ef" />
+  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" fill="white" font-family="Arial" font-size="24">
+    Beauty Image Placeholder
+  </text>
+  <circle cx="200" cy="150" r="50" fill="white" opacity="0.3"/>
+  <rect x="170" y="200" width="60" height="100" rx="10" fill="white" opacity="0.3"/>
+</svg> 

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="600" viewBox="0 0 300 600">
+  <rect width="300" height="600" fill="#6633CC" />
+  <rect x="0" y="550" width="300" height="50" fill="#5522BB" />
+  <text x="150" y="280" font-family="Arial, sans-serif" font-size="32" font-weight="bold" text-anchor="middle" fill="#FFFFFF">
+    NEW
+  </text>
+  <text x="150" y="320" font-family="Arial, sans-serif" font-size="32" font-weight="bold" text-anchor="middle" fill="#FFFFFF">
+    ARRIVALS
+  </text>
+  <text x="150" y="380" font-family="Arial, sans-serif" font-size="20" text-anchor="middle" fill="#FFFFFF">
+    EXPLORE THE COLLECTION
+  </text>
+  <text x="150" y="580" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#FFFFFF">
+    Hop &amp; Shop
+  </text>
+</svg> 

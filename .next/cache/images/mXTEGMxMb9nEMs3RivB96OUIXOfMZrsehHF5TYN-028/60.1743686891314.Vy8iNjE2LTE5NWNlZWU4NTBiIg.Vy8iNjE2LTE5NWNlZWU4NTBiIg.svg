@@ -1,0 +1,28 @@
+<svg width="1200" height="300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="brandGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4158D0;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#C850C0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFCC70;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#brandGradient)"/>
+  <text x="160" y="120" font-family="Arial" font-size="60" font-weight="bold" fill="white">BRAND FESTIVAL</text>
+  <text x="160" y="180" font-family="Arial" font-size="36" fill="white">Top Brands, Best Deals</text>
+  
+  <!-- Brand Circles -->
+  <circle cx="600" cy="100" r="40" fill="white" opacity="0.8"/>
+  <circle cx="700" cy="80" r="30" fill="white" opacity="0.8"/>
+  <circle cx="780" cy="140" r="50" fill="white" opacity="0.8"/>
+  <circle cx="850" cy="70" r="35" fill="white" opacity="0.8"/>
+  <circle cx="920" cy="120" r="45" fill="white" opacity="0.8"/>
+  <circle cx="1000" cy="90" r="40" fill="white" opacity="0.8"/>
+  
+  <!-- Abstract Logo Elements -->
+  <path d="M600,100 L620,80 L640,100 L620,120 Z" fill="#4158D0"/>
+  <path d="M700,80 A15,15 0 1 0 700,110 A15,15 0 1 0 700,80 Z" fill="#C850C0"/>
+  <rect x="760" y="120" width="40" height="40" rx="5" fill="#FFCC70"/>
+  <polygon points="850,50 835,90 865,90" fill="#4158D0"/>
+  <path d="M920,120 L900,140 L940,140 Z" fill="#C850C0"/>
+  <rect x="980" y="70" width="40" height="40" rx="20" fill="#FFCC70"/>
+</svg> 

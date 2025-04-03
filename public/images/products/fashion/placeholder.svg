@@ -1,0 +1,8 @@
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="400" fill="#ec4899" />
+  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" fill="white" font-family="Arial" font-size="24">
+    Fashion Image Placeholder
+  </text>
+  <path d="M200,100 L150,170 L250,170 Z" fill="white" opacity="0.3"/>
+  <rect x="150" y="170" width="100" height="130" rx="5" fill="white" opacity="0.3"/>
+</svg> 

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="200" viewBox="0 0 400 200">
+  <rect width="400" height="200" fill="#005AAA" />
+  <rect x="0" y="170" width="400" height="30" fill="#004488" />
+  <text x="200" y="90" font-family="Arial, sans-serif" font-size="40" font-weight="bold" text-anchor="middle" fill="#FFFFFF">
+    TECNO
+  </text>
+  <text x="200" y="130" font-family="Arial, sans-serif" font-size="20" text-anchor="middle" fill="#FFFFFF">
+    Official Store
+  </text>
+  <text x="200" y="190" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#FFFFFF">
+    Hop &amp; Shop
+  </text>
+</svg> 

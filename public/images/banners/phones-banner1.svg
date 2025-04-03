@@ -1,0 +1,24 @@
+<svg width="1200" height="300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="phoneGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#0062E6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#33A8FF;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#phoneGradient)"/>
+  <text x="120" y="120" font-family="Arial" font-size="48" font-weight="bold" fill="white">LATEST SMARTPHONES</text>
+  <text x="120" y="170" font-family="Arial" font-size="28" fill="white">Discover the newest models</text>
+  
+  <!-- Phone Outlines -->
+  <rect x="700" y="50" width="120" height="220" rx="12" stroke="white" stroke-width="4" fill="none"/>
+  <rect x="710" y="70" width="100" height="180" rx="4" stroke="white" stroke-width="2" fill="rgba(255,255,255,0.1)"/>
+  <circle cx="760" cy="260" r="8" stroke="white" stroke-width="2" fill="none"/>
+  
+  <rect x="850" y="70" width="110" height="200" rx="10" stroke="white" stroke-width="4" fill="none"/>
+  <rect x="860" y="90" width="90" height="160" rx="2" stroke="white" stroke-width="2" fill="rgba(255,255,255,0.1)"/>
+  <circle cx="905" cy="260" r="8" stroke="white" stroke-width="2" fill="none"/>
+  
+  <rect x="980" y="40" width="130" height="240" rx="14" stroke="white" stroke-width="4" fill="none"/>
+  <rect x="990" y="60" width="110" height="200" rx="6" stroke="white" stroke-width="2" fill="rgba(255,255,255,0.1)"/>
+  <circle cx="1045" cy="270" r="8" stroke="white" stroke-width="2" fill="none"/>
+</svg> 

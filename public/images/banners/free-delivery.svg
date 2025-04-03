@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="200" viewBox="0 0 1200 200">
+  <rect width="1200" height="200" fill="#00AACC" />
+  <rect x="0" y="170" width="1200" height="30" fill="#0088AA" />
+  <text x="600" y="80" font-family="Arial, sans-serif" font-size="40" font-weight="bold" text-anchor="middle" fill="#FFFFFF">
+    FREE DELIVERY
+  </text>
+  <text x="600" y="130" font-family="Arial, sans-serif" font-size="26" text-anchor="middle" fill="#FFFFFF">
+    On All Orders Above GHS 200 | Limited Time Offer
+  </text>
+  <text x="600" y="190" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#FFFFFF">
+    Hop &amp; Shop
+  </text>
+</svg> 

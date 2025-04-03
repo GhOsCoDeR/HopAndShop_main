@@ -1,0 +1,46 @@
+[
+  {
+    "id": "1",
+    "email": "admin@example.com",
+    "password": "admin123",
+    "firstName": "Admin",
+    "lastName": "User",
+    "phone": "1234567890",
+    "createdAt": 1742930529277
+  },
+  {
+    "id": "1742930616123",
+    "email": "adams24mahama@gmail.com",
+    "password": "512c0e9ead617c9050425d99b1bb85d2f39ff78b22acbaaf258b0c719dadb881",
+    "firstName": "Adam",
+    "lastName": "Mahama",
+    "phone": "0246960570",
+    "createdAt": 1742930616123
+  },
+  {
+    "id": "user_1743080057274",
+    "email": "admin@example.com",
+    "password": "$2b$10$hoqQT1q4rjhZnOtH9NhwYuqXab1ViyOSQwudwHVozJ4j2CwjlKqd2",
+    "name": "Admin User",
+    "isAdmin": true,
+    "isActive": true
+  },
+  {
+    "id": "1743169468595",
+    "email": "adams19mahama@gmail.com",
+    "password": "512c0e9ead617c9050425d99b1bb85d2f39ff78b22acbaaf258b0c719dadb881",
+    "firstName": "Gideon",
+    "lastName": "Will",
+    "phone": "0246960570",
+    "createdAt": 1743169468595
+  },
+  {
+    "id": "1743172391815",
+    "email": "admas25mahama@gmail.com",
+    "password": "512c0e9ead617c9050425d99b1bb85d2f39ff78b22acbaaf258b0c719dadb881",
+    "firstName": "Sharon",
+    "lastName": "Quartey",
+    "phone": "0246960570",
+    "createdAt": 1743172391816
+  }
+]

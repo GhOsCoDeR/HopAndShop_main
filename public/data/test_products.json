@@ -1,0 +1,234 @@
+{
+  "categories": [
+    {
+      "id": "p2m0jiz7n",
+      "name": "Electronics",
+      "products": [
+        {
+          "id": "qvuxg9vm4",
+          "name": "Smartphone Pro X",
+          "price": 999.99,
+          "description": "Latest smartphone with advanced features",
+          "category": "electronics",
+          "imageUrl": "/images/products/electronics/smartphone-pro-x.jpg"
+        },
+        {
+          "id": "t90sszv6t",
+          "name": "Wireless Headphones",
+          "price": 199.99,
+          "description": "High-quality wireless headphones",
+          "category": "electronics",
+          "imageUrl": "/images/products/electronics/wireless-headphones.jpg"
+        },
+        {
+          "id": "wemren8dr",
+          "name": "Smart Watch",
+          "price": 299.99,
+          "description": "Fitness tracking smartwatch",
+          "category": "electronics",
+          "imageUrl": "/images/products/electronics/smart-watch.jpg"
+        },
+        {
+          "id": "g31ov1vw9",
+          "name": "Laptop Ultra",
+          "price": 1299.99,
+          "description": "High-performance laptop",
+          "category": "electronics",
+          "imageUrl": "/images/products/electronics/laptop-ultra.jpg"
+        },
+        {
+          "id": "8noqj8jnq",
+          "name": "Tablet Mini",
+          "price": 499.99,
+          "description": "Compact tablet for everyday use",
+          "category": "electronics",
+          "imageUrl": "/images/products/electronics/tablet-mini.jpg"
+        }
+      ]
+    },
+    {
+      "id": "zt6jrszrm",
+      "name": "Clothing",
+      "products": [
+        {
+          "id": "yo921oild",
+          "name": "Classic T-Shirt",
+          "price": 24.99,
+          "description": "Comfortable cotton t-shirt",
+          "category": "clothing",
+          "imageUrl": "/images/products/clothing/classic-t-shirt.jpg"
+        },
+        {
+          "id": "avay8g7z5",
+          "name": "Denim Jeans",
+          "price": 59.99,
+          "description": "Classic fit denim jeans",
+          "category": "clothing",
+          "imageUrl": "/images/products/clothing/denim-jeans.jpg"
+        },
+        {
+          "id": "1e1u3lvbg",
+          "name": "Casual Jacket",
+          "price": 79.99,
+          "description": "Stylish casual jacket",
+          "category": "clothing",
+          "imageUrl": "/images/products/clothing/casual-jacket.jpg"
+        },
+        {
+          "id": "w66r2wyf1",
+          "name": "Running Shoes",
+          "price": 89.99,
+          "description": "Comfortable running shoes",
+          "category": "clothing",
+          "imageUrl": "/images/products/clothing/running-shoes.jpg"
+        },
+        {
+          "id": "u1y2yfk0c",
+          "name": "Summer Shorts",
+          "price": 34.99,
+          "description": "Lightweight summer shorts",
+          "category": "clothing",
+          "imageUrl": "/images/products/clothing/summer-shorts.jpg"
+        }
+      ]
+    },
+    {
+      "id": "32r6q0g4b",
+      "name": "Home",
+      "products": [
+        {
+          "id": "2ycl7yhq6",
+          "name": "Coffee Maker",
+          "price": 49.99,
+          "description": "Automatic coffee maker",
+          "category": "home",
+          "imageUrl": "/images/products/home/coffee-maker.jpg"
+        },
+        {
+          "id": "7y84feypu",
+          "name": "Bed Sheets Set",
+          "price": 39.99,
+          "description": "Cotton bed sheets set",
+          "category": "home",
+          "imageUrl": "/images/products/home/bed-sheets-set.jpg"
+        },
+        {
+          "id": "rvgfkc756",
+          "name": "Smart LED Bulb",
+          "price": 29.99,
+          "description": "WiFi-enabled smart bulb",
+          "category": "home",
+          "imageUrl": "/images/products/home/smart-led-bulb.jpg"
+        },
+        {
+          "id": "rie1j1mpx",
+          "name": "Kitchen Blender",
+          "price": 69.99,
+          "description": "High-speed blender",
+          "category": "home",
+          "imageUrl": "/images/products/home/kitchen-blender.jpg"
+        },
+        {
+          "id": "g8tnjn7hy",
+          "name": "Wall Clock",
+          "price": 19.99,
+          "description": "Modern wall clock",
+          "category": "home",
+          "imageUrl": "/images/products/home/wall-clock.jpg"
+        }
+      ]
+    },
+    {
+      "id": "j07q6fx9k",
+      "name": "Beauty",
+      "products": [
+        {
+          "id": "ptp9to6ku",
+          "name": "Face Cream",
+          "price": 29.99,
+          "description": "Hydrating face cream",
+          "category": "beauty",
+          "imageUrl": "/images/products/beauty/face-cream.jpg"
+        },
+        {
+          "id": "w0v0c2g9k",
+          "name": "Shampoo Set",
+          "price": 24.99,
+          "description": "Natural ingredients shampoo",
+          "category": "beauty",
+          "imageUrl": "/images/products/beauty/shampoo-set.jpg"
+        },
+        {
+          "id": "tq0jz6y0d",
+          "name": "Makeup Kit",
+          "price": 49.99,
+          "description": "Complete makeup kit",
+          "category": "beauty",
+          "imageUrl": "/images/products/beauty/makeup-kit.jpg"
+        },
+        {
+          "id": "yhdrbgbiz",
+          "name": "Perfume",
+          "price": 59.99,
+          "description": "Luxury fragrance",
+          "category": "beauty",
+          "imageUrl": "/images/products/beauty/perfume.jpg"
+        },
+        {
+          "id": "jugwozzbs",
+          "name": "Skincare Set",
+          "price": 79.99,
+          "description": "Complete skincare routine",
+          "category": "beauty",
+          "imageUrl": "/images/products/beauty/skincare-set.jpg"
+        }
+      ]
+    },
+    {
+      "id": "u895o2ycf",
+      "name": "Sports",
+      "products": [
+        {
+          "id": "ha1rairdv",
+          "name": "Yoga Mat",
+          "price": 29.99,
+          "description": "Premium yoga mat",
+          "category": "sports",
+          "imageUrl": "/images/products/sports/yoga-mat.jpg"
+        },
+        {
+          "id": "rkaicc3sh",
+          "name": "Dumbbell Set",
+          "price": 89.99,
+          "description": "Adjustable dumbbell set",
+          "category": "sports",
+          "imageUrl": "/images/products/sports/dumbbell-set.jpg"
+        },
+        {
+          "id": "65l90rm33",
+          "name": "Sports Bag",
+          "price": 39.99,
+          "description": "Durable sports bag",
+          "category": "sports",
+          "imageUrl": "/images/products/sports/sports-bag.jpg"
+        },
+        {
+          "id": "n2sw9m75d",
+          "name": "Running Watch",
+          "price": 159.99,
+          "description": "GPS running watch",
+          "category": "sports",
+          "imageUrl": "/images/products/sports/running-watch.jpg"
+        },
+        {
+          "id": "u2w5d6b11",
+          "name": "Basketball",
+          "price": 24.99,
+          "description": "Professional basketball",
+          "category": "sports",
+          "imageUrl": "/images/products/sports/basketball.jpg"
+        }
+      ]
+    }
+  ]
+}

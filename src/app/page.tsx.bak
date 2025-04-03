@@ -1,0 +1,71 @@
+'use client'
+
+import { useState, useEffect } from 'react'
+import { loadProducts, subscribeToProductUpdates } from '@/utils/productStorage'
+import HeroSection from '@/components/HeroSection'
+import ProductGrid from '@/components/ProductGrid'
+import CategorySection from '@/components/CategorySection'
+import FeaturedProducts from '@/components/FeaturedProducts'
+import { Product } from '@/types/product'
+
+export default function Home() {
+  const [mounted, setMounted] = useState(false)
+  const [products, setProducts] = useState<Product[]>([])
+
+  useEffect(() => {
+    const initializeProducts = async () => {
+      try {
+        const fetchedProducts = await loadProducts()
+        if (Array.isArray(fetchedProducts)) {
+          setProducts(fetchedProducts)
+        }
+      } catch (error) {
+        console.error('Error loading products:', error)
+      }
+    }
+
+    initializeProducts()
+    setMounted(true)
+
+    // Subscribe to product updates
+    const unsubscribe = subscribeToProductUpdates(async () => {
+      const updatedProducts = await loadProducts()
+      if (Array.isArray(updatedProducts)) {
+        setProducts(updatedProducts)
+      }
+    })
+    
+    return () => {
+      unsubscribe()
+    }
+  }, [])
+
+  if (!mounted) {
+    return (
+      <div className="min-h-screen flex items-center justify-center">
+        <div className="w-16 h-16 border-4 border-orange-500 border-t-transparent rounded-full animate-spin"></div>
+      </div>
+    )
+  }
+
+  return (
+    <main className="min-h-screen">
+      {/* Hero Section with Vertical Carousel and Additional Banners */}
+      <HeroSection />
+      
+      {/* Featured Categories */}
+      <CategorySection />
+      
+      {/* Featured Products */}
+      <FeaturedProducts products={products} />
+      
+      {/* All Products */}
+      <section className="py-8">
+        <div className="container mx-auto px-4">
+          <h2 className="text-2xl font-bold text-gray-900 mb-6">All Products</h2>
+          <ProductGrid products={products} />
+        </div>
+      </section>
+    </main>
+  )
+} 

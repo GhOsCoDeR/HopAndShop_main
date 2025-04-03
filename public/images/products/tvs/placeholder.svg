@@ -1,0 +1,8 @@
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="400" fill="#10b981" />
+  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" fill="white" font-family="Arial" font-size="24">
+    TV Image Placeholder
+  </text>
+  <rect x="75" y="120" width="250" height="150" rx="5" fill="white" opacity="0.3"/>
+  <rect x="160" y="270" width="80" height="30" rx="5" fill="white" opacity="0.3"/>
+</svg> 

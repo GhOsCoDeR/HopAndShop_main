@@ -1,0 +1,8 @@
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="400" fill="#0891b2" />
+  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" fill="white" font-family="Arial" font-size="24">
+    Laptop Image Placeholder
+  </text>
+  <rect x="100" y="150" width="200" height="120" rx="5" fill="white" opacity="0.3"/>
+  <rect x="80" y="270" width="240" height="20" rx="5" fill="white" opacity="0.3"/>
+</svg> 

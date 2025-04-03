@@ -1,0 +1,228 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+  
+  /* Light theme variables */
+  --primary: #007aff;
+  --background: #ffffff;
+  --secondary-bg: #f5f5f7;
+  --foreground: #1d1d1f;
+  --secondary-foreground: #6e6e73;
+  --accent: #007aff;
+  --border: #d2d2d7;
+  --card: #ffffff;
+  --card-foreground: #1d1d1f;
+  --card-hover: #f5f5f7;
+  --muted: #f5f5f7;
+  --muted-foreground: #6e6e73;
+  --destructive: #ff3b30;
+  --success: #34c759;
+  --warning: #ff9500;
+  --info: #5ac8fa;
+}
+
+/* Dark mode color variables */
+.dark-theme {
+  --foreground-rgb: 255, 255, 255;
+  --background-start-rgb: 0, 0, 0;
+  --background-end-rgb: 0, 0, 0;
+  
+  /* Dark theme variables */
+  --primary: #0a84ff;
+  --background: #1c1c1e;
+  --secondary-bg: #2c2c2e;
+  --foreground: #ffffff;
+  --secondary-foreground: #aeaeb2;
+  --accent: #0a84ff;
+  --border: #38383a;
+  --card: #2c2c2e;
+  --card-foreground: #ffffff;
+  --card-hover: #3a3a3c;
+  --muted: #3a3a3c;
+  --muted-foreground: #aeaeb2;
+  --destructive: #ff453a;
+  --success: #30d158;
+  --warning: #ff9f0a;
+  --info: #64d2ff;
+}
+
+/* Base element styles */
+@layer base {
+  body {
+    color: rgb(var(--foreground-rgb));
+    background: rgb(var(--background-start-rgb));
+    @apply text-foreground bg-background transition-colors duration-200;
+  }
+  
+  .dark-theme body {
+    color: rgb(var(--foreground-rgb));
+    background: rgb(var(--background-start-rgb));
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-semibold;
+  }
+  
+  input, select, textarea {
+    @apply bg-background border-border text-foreground;
+  }
+  
+  .dark-theme input,
+  .dark-theme select,
+  .dark-theme textarea {
+    @apply bg-gray-800 border-border text-foreground;
+  }
+  
+  button {
+    @apply transition-colors duration-200;
+  }
+}
+
+/* Custom component styles */
+@layer components {
+  /* Cards */
+  .card {
+    @apply bg-white dark:bg-gray-900 shadow-sm rounded-lg overflow-hidden transition-colors duration-200;
+  }
+  
+  .dark-theme .card {
+    @apply bg-gray-900 border-gray-800;
+  }
+  
+  /* Stats card */
+  .stats-card {
+    @apply bg-white dark:bg-gray-900 p-4 rounded-lg shadow transition-colors duration-200;
+  }
+  
+  .dark-theme .stats-card {
+    @apply bg-gray-900 text-white;
+  }
+  
+  /* Admin dashboard */
+  .admin-layout {
+    @apply bg-gray-100 dark:bg-gray-950 transition-colors duration-200;
+  }
+  
+  .admin-sidebar {
+    @apply bg-white dark:bg-gray-900 transition-colors duration-200;
+  }
+  
+  .admin-topbar {
+    @apply bg-white dark:bg-gray-900 transition-colors duration-200;
+  }
+  
+  /* Charts */
+  .chart-container {
+    @apply bg-white dark:bg-gray-900 rounded-lg shadow p-4 transition-colors duration-200;
+  }
+  
+  .dark-theme .chart-container canvas {
+    filter: brightness(0.9) contrast(1.1);
+  }
+  
+  .dark-theme .recharts-cartesian-grid-horizontal line,
+  .dark-theme .recharts-cartesian-grid-vertical line {
+    @apply stroke-gray-700;
+  }
+  
+  .dark-theme .recharts-tooltip-wrapper .recharts-default-tooltip {
+    @apply bg-gray-800 border-gray-700;
+  }
+  
+  /* Table */
+  .table-container {
+    @apply bg-white dark:bg-gray-900 rounded-lg shadow overflow-hidden transition-colors duration-200;
+  }
+  
+  .dark-theme table {
+    @apply text-gray-200;
+  }
+  
+  .dark-theme th {
+    @apply bg-gray-800 text-gray-200;
+  }
+  
+  .dark-theme tr {
+    @apply border-gray-700;
+  }
+  
+  .dark-theme tr:hover {
+    @apply bg-gray-800;
+  }
+  
+  /* Form elements */
+  .form-input {
+    @apply bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-700 rounded-md px-3 py-2 transition-colors duration-200;
+  }
+  
+  .dark-theme .form-input::placeholder {
+    @apply text-gray-500;
+  }
+  
+  .form-select {
+    @apply bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-700 rounded-md px-3 py-2 transition-colors duration-200;
+  }
+  
+  .form-checkbox {
+    @apply rounded border-gray-300 dark:border-gray-700 text-primary focus:ring-primary transition-colors duration-200;
+  }
+  
+  .form-label {
+    @apply block text-gray-700 dark:text-gray-300 mb-1 transition-colors duration-200;
+  }
+  
+  /* Define any custom utility classes */
+  .bg-secondary-bg {
+    background-color: var(--secondary-bg);
+  }
+}
+
+/* Custom utilities */
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  
+  .dark-mode-transition {
+    @apply transition-colors duration-200;
+  }
+}
+
+/* Custom Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.5s ease-out;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-muted;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-secondary rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-secondary-dark;
+} 
